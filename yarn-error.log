@@ -1,0 +1,52 @@
+Arguments: 
+  /Users/xutaotao/.nvm/versions/node/v11.10.1/bin/node /usr/local/bin/yarn add VueRouter --dev
+
+PATH: 
+  /Users/xutaotao/.nvm/versions/node/v11.10.1/bin:/Users/xutaotao/Documents/development/flutter/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/xutaotao/.nvm/versions/node/v11.10.1/bin:/Users/xutaotao/Documents/development/flutter/bin:/Users/xutaotao/Library/Android/sdk/tools:/Users/xutaotao/Library/Android/sdk/platform-tools:/Users/xutaotao/Library/Android/sdk/tools:/Users/xutaotao/Library/Android/sdk/platform-tools
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  11.10.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/VueRouter: Not found
+      at Request.params.callback [as _callback] (/usr/local/lib/node_modules/yarn/lib/cli.js:66988:18)
+      at Request.self.callback (/usr/local/lib/node_modules/yarn/lib/cli.js:140662:22)
+      at Request.emit (events.js:197:13)
+      at Request.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:141634:10)
+      at Request.emit (events.js:197:13)
+      at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:141556:12)
+      at Object.onceWrapper (events.js:285:13)
+      at IncomingMessage.emit (events.js:202:15)
+      at endReadableNT (_stream_readable.js:1129:12)
+      at processTicksAndRejections (internal/process/next_tick.js:76:17)
+
+npm manifest: 
+  {
+    "name": "ninecat-admin-next",
+    "version": "0.0.0",
+    "scripts": {
+      "dev": "vite",
+      "build": "vite build",
+      "serve": "vite preview"
+    },
+    "dependencies": {
+      "vue": "^3.0.5"
+    },
+    "devDependencies": {
+      "@vitejs/plugin-vue": "^1.1.4",
+      "@vue/compiler-sfc": "^3.0.5",
+      "vite": "^2.0.0-beta.70"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

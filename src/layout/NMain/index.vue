@@ -1,19 +1,17 @@
 <template>
-  <div id="app">
-    <!-- tets -->
-    <router-view />
+  <div class="NMain">
+      <slot />
   </div>
 </template>
 
 <script>
 export default {
-  name: 'App'
+
 }
 </script>
 
 <style lang="scss" scoped>
-#app {
-  height: 100%;
-  display: flex;
+.NMain {
+    flex: 1;
 }
 </style>
